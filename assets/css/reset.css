@@ -1,0 +1,16 @@
+/*This is the reset.css code that will fallback to if the style.css fails to load*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*This CSS code change the image size to make the content more readable*/ 
+img {
+    width: 10%;
+    height: auto;
+}

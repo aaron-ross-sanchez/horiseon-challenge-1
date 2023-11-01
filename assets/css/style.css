@@ -1,0 +1,152 @@
+/*This is the main CSS style sheet*/
+/*This CSS code targets all elements*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This CSS code targets makes the body background a specific color*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*The following 6 CSS classes target the header and elements inside of the header, including a navigation bar floated to the right with list items in an unordered list.*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*This CSS code will change the color of the letters inside the classes span*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*This CSS code is for the links in the nav bar*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*This CSS code makes the font size of text in between p tags 16px*/
+p {
+    font-size: 16px;
+}
+
+/*This CSS code is for the initial background image before the main content of the webpage*/
+article {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*This CSS code will revert the images back to the normal size from the reset code*/
+img {
+    width: auto;
+    height: auto;
+}
+
+/*This CSS code is attached to the images in the first section and dictates where in the container they will be*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*The following CSS code is for the first section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*The next three CSS classes are replicated three times within the section by the use of divs*/
+.content-example {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-example img {
+    max-height: 200px;
+}
+
+.content-example h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*The following CSS code is for the second section*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*The next three CSS classes are replicated three times within the section by the use of divs*/
+.benefit-example {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-example h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-example img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This CSS code is for the footer element*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
