@@ -41,8 +41,6 @@ WHEN I see the .hero class
 THEN I will change it to an article tag  
 WHEN I see the linked CSS sheet in the head  
 THEN I will add a reset.css before the style.css  
-WHEN I see ID's that don't have CSS code  
-THEN I will delete those ID's  
 WHEN I see .benefit-lead, .benefit-brand, .benefit-cost  
 THEN I will combine them into one class  
 
