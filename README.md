@@ -11,7 +11,7 @@ Those changes can be found below in the two different epics:
 User Story  
 As a developer,  
 I want the index.html code to be structured in an accessible way  
-so that screen the website will be able to reach more users  
+so that the website will be able to reach more users  
 
 Acceptance Criteria  
 GIVEN the index.html code  
@@ -51,7 +51,7 @@ THEN I will combine them into one class
 User Story  
 As a developer,  
 I want the style.css code to reflect updated HTML code  
-so that screen the website will be able to reach more users  
+so that the website will be able to reach more users  
 
 Acceptance Criteria  
 GIVEN the CSS code  
