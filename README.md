@@ -82,4 +82,6 @@ THEN I will change it to footer h3
 
 ##Usage
 
-![Screenshot of the application] 
+![Screenshot of the application](assets/images/aaron-ross-sanchez.github.io:horiseon-challenge-1.png)
+You can access the deployed application [here](https://aaron-ross-sanchez.github.io/horiseon-challenge-1/).
+
