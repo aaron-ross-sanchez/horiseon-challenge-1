@@ -1,12 +1,12 @@
 # horiseon-challenge-1
 
-##Description
+## Description
 
 In this repository, is updated html and css code from the urban-octo-telegram-main repository. Within that original repository contained code that was not as accessible for screen readers or search engines. I refactored the html and css code to improve the codebase for long-term sustainability. 
 
 Those changes can be found below in the two different epics:
 
-##HTML
+## HTML
 
 User Story  
 As a developer,  
@@ -46,7 +46,7 @@ THEN I will delete those ID's
 WHEN I see .benefit-lead, .benefit-brand, .benefit-cost  
 THEN I will combine them into one class  
 
-##CSS
+## CSS
 
 User Story  
 As a developer,  
@@ -80,8 +80,19 @@ THEN I will change it to footer
 WHEN I see .footer h2  
 THEN I will change it to footer h3  
 
-##Usage
+## Installation
+
+N/A
+
+## Usage
 
 ![Screenshot of the application](assets/images/aaron-ross-sanchez.github.io:horiseon-challenge-1.png)
 You can access the deployed application [here](https://aaron-ross-sanchez.github.io/horiseon-challenge-1/).
 
+## Credits
+
+coding-boot-camp/urban-octo-telegram
+
+## License
+
+Please refer to the LICENSE in the repo.
